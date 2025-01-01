@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: Gilroy; 
+  }
+  html,body{
+      height: 100%;
+      width: 100%;
+  }
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    transition: all linear 0.2s;
+
+    
+    mix-blend-mode: difference;
+}
+/* The reason your .cursor element becomes a perfect circle with the given CSS is that the width and height are equal, and the border-radius value of 50px is large enough to fully round the element into a circle. */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main h1{
+    color: #fff;
+    /* background-color: #fff; */
+    font-size: 9vw;
+    font-weight: 900;
+}
